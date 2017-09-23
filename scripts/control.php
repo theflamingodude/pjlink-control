@@ -1,8 +1,8 @@
 <?php
     require_once('pjlink.class.php');
     
-    $host = "192.168.2.102";
-    $password = "panasonic";
+    $host = "BEAMER IP";
+    $password = "PASSWORT";
     
     $pjlink = new PJLink();
     $pjlink->setDevice($host, $password, 10, 4352);
